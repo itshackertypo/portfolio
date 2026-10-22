@@ -205,22 +205,95 @@ function renderApp() {
     </section>
 
     <footer class="footer">
-      <div class="container footer-content">
-        <p class="footer-name">Love Wadhwa</p>
-        <p class="footer-tagline">B.Tech CSE · Aspiring Full-Stack Developer</p>
-        <div class="footer-socials">
-          <a href="https://github.com/lovewadhwa" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-              <path d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.21 3.44 9.63 8.21 11.19.6.11.82-.25.82-.56 0-.28-.01-1.02-.02-2-3.34.71-4.04-1.58-4.04-1.58-.55-1.37-1.34-1.74-1.34-1.74-1.09-.73.08-.72.08-.72 1.2.08 1.84 1.21 1.84 1.21 1.07 1.8 2.81 1.28 3.5.98.11-.76.42-1.28.76-1.57-2.67-.3-5.47-1.3-5.47-5.79 0-1.28.47-2.33 1.24-3.15-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.2a11.6 11.6 0 0 1 6 0c2.29-1.52 3.3-1.2 3.3-1.2.66 1.65.24 2.87.12 3.17.77.82 1.24 1.87 1.24 3.15 0 4.5-2.81 5.48-5.49 5.78.43.36.81 1.08.81 2.18 0 1.57-.01 2.84-.01 3.23 0 .31.22.68.83.56C20.56 21.91 24 17.5 24 12.29 24 5.78 18.63.5 12 .5z"/>
-            </svg>
-          </a>
-          <a href="https://linkedin.com/in/lovewadhwa" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-              <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
-            </svg>
-          </a>
+      <div class="container footer-container">
+        <div class="footer-grid">
+          <div class="footer-col footer-col-brand">
+            <a href="#hero" class="footer-logo">
+              <span class="footer-logo-text">Vatsal Garg</span>
+              <span class="footer-logo-dot">.</span>
+            </a>
+            <p class="footer-tagline">
+              B.Tech Computer Science &amp; Engineering student passionate about building elegant, scalable software and interactive web applications.
+            </p>
+            <div class="footer-status-badge">
+              <span class="status-pulse"></span>
+              <span>Open for internships &amp; collaboration</span>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Connect</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="https://github.com/itshackertypo" target="_blank" rel="noopener noreferrer">
+                  GitHub (@itshackertypo)
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/itshackertypo/portfolio" target="_blank" rel="noopener noreferrer">
+                  Portfolio Repository
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/vatsalgarg" target="_blank" rel="noopener noreferrer">
+                  LinkedIn Profile
+                </a>
+              </li>
+              <li>
+                <a href="#contact">Get In Touch</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col footer-col-connect">
+            <h4 class="footer-heading">Follow Along</h4>
+            <p class="footer-col-subtext">Check out my latest open-source projects, algorithms, and experiments.</p>
+            <div class="footer-socials">
+              <a href="https://github.com/itshackertypo" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.21 3.44 9.63 8.21 11.19.6.11.82-.25.82-.56 0-.28-.01-1.02-.02-2-3.34.71-4.04-1.58-4.04-1.58-.55-1.37-1.34-1.74-1.34-1.74-1.09-.73.08-.72.08-.72 1.2.08 1.84 1.21 1.84 1.21 1.07 1.8 2.81 1.28 3.5.98.11-.76.42-1.28.76-1.57-2.67-.3-5.47-1.3-5.47-5.79 0-1.28.47-2.33 1.24-3.15-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.2a11.6 11.6 0 0 1 6 0c2.29-1.52 3.3-1.2 3.3-1.2.66 1.65.24 2.87.12 3.17.77.82 1.24 1.87 1.24 3.15 0 4.5-2.81 5.48-5.49 5.78.43.36.81 1.08.81 2.18 0 1.57-.01 2.84-.01 3.23 0 .31.22.68.83.56C20.56 21.91 24 17.5 24 12.29 24 5.78 18.63.5 12 .5z"/>
+                </svg>
+              </a>
+              <a href="https://linkedin.com/in/vatsalgarg" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
+                </svg>
+              </a>
+              <a href="#contact" aria-label="Send direct message">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
-        <p class="footer-copy">&copy; ${new Date().getFullYear()} Love Wadhwa. All rights reserved.</p>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+          <p class="footer-copy">&copy; ${new Date().getFullYear()} Vatsal Garg. All rights reserved.</p>
+          <div class="footer-bottom-meta">
+            <span class="footer-built">Crafted with <span class="heart-pulse">❤️</span> by Vatsal Garg</span>
+            <a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to top">
+              <span>Back to top</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="18 15 12 9 6 15"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
   `
